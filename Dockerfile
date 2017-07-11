@@ -1,4 +1,4 @@
-FROM daocloud.io/leeonky/ctest:master-ee097d2
+FROM leeonky/ctest
 
 RUN sudo yum install -y yasm && cd ~ && \
 	wget https://github.com/leeonky/tools_dev/raw/master/ffmpeg-3.3.1.tar.bz2 && \
